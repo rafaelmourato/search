@@ -1,0 +1,17 @@
+h1{
+    color:white; 
+    text-align: center; 
+    font-size: 100px;
+    font-family: Helvetica, neue, sans-serif; 
+}
+a {
+    /* Links in the top of the page */
+    color: wheat;
+}
+input[name="button"]{
+    /* buttons beside de search bar*/
+    color: red;
+}
+.header{
+    color: white;
+}
