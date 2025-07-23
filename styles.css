@@ -35,7 +35,7 @@ a:hover{
     text-decoration: underline;
 }
 
-input[name="button"]{
+.searchbutton{
     /* buttons under the search bar*/
     padding: 10px 20px;
     border: none;
@@ -46,7 +46,7 @@ input[name="button"]{
     cursor: pointer;
 }
 
-input[name="button"]:hover{
+.searchbutton:hover{
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
 

@@ -12,7 +12,7 @@ The goal of this activity is to recreate the Google homepage, the Google Image S
 - [x] Your website should have at least three pages: one for regular Google Search (**index.html**), one for Google Image Search, and one for Google Advanced Search.
 - [x] On the Google Search page, there should be links in the upper-right corner to go to the Image Search or Advanced Search pages. On each of the other two pages, there should be a link in the upper-right corner to go back to Google Search.
 - [x] On the Google Search page, the user should be able to type in a query, click “Google Search”, and be taken to the Google search results for that query.
-- [ ] Like Google’s own, your search bar should be centered with rounded corners. The search button should also be centered, and placed beneath the search bar.
+- [x] Like Google’s own, your search bar should be centered with rounded corners. The search button should also be centered, and placed beneath the search bar.
 - [ ] On the Google Image Search page, the user should be able to type in a query, click a search button, and be taken to the Google Image search results for that query.
 - [ ] On the Google Advanced Search page, the user should be able to provide input for the following four fields (based on Google’s own advanced search options).
 - [ ] Like Google’s own Advanced Search page, the four options should be stacked vertically, and all text fields should be left-aligned.
