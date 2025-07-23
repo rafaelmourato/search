@@ -1,9 +1,9 @@
 h1{
-    color:white; 
     text-align: center; 
     font-size: 100px;
     font-family: Helvetica, neue, sans-serif; 
 }
+
 a {
     /* Links in the top of the page */
     color: black;
@@ -13,22 +13,89 @@ a {
     font-family: Helvetica, sans-serif;
     font-size: 14px;
 }
+.google{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+.g{
+    color: #4285F4;
+}
+#o, #e{
+    color: #EA4335;
+}
+#o1{
+    color: #FBBC05;
+}
+#l {
+    color: #34A853;
+}
+
 a:hover{
     text-decoration: underline;
 }
 
 input[name="button"]{
     /* buttons under the search bar*/
-    color: red;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    background-color: rgb(247, 245, 245);
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
 }
+
+input[name="button"]:hover{
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.searchpart{
+    height: 146px;
+    width: 100%;
+}
+
+.searchBar form {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;    
+  gap: 15px;
+}
+
+.searchBar input[type="text"] {
+  width: 585px;
+  height: 53px;
+  border-radius: 26px;
+  border: 2px solid #ccc;
+  font-size: 16px;
+  padding-left: 15px;
+}
+
+.searchBar input[type="text"]:hover{
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.searchBar input[type="text"]:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+#doubleButton{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+
 .header{
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
     color: white; 
     display: flex;
     justify-content: flex-end;
     width: 100%;
     height: 60px;
-    padding: 6px;
-
 }
