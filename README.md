@@ -22,7 +22,7 @@ Find pages with… “none of these words:”
 - [x] Like Google’s own Advanced Search page, the four options should be stacked vertically, and all text fields should be left-aligned.
 - [x] Consistent with Google’s design, the “Advanced Search” button should be blue with white text.
 - [x] When the “Advanced Search” button is clicked, the user should be taken to the search results page for their given query.
-- [ ] The CSS you write should resemble Google’s own aesthetics.
+- [x] The CSS you write should resemble Google’s own aesthetics.
 - [x] Add an “I’m Feeling Lucky” button to the main Google Search page. Consistent with Google’s behavior, clicking this link should take the user directly to the first Google search result for the query, bypassing the normal results page.
 
 ### Links
