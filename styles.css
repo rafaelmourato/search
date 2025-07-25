@@ -10,14 +10,13 @@ h1{
 h3{
     color: #d93025;
     font-size: 24px;
-    margin: 25px 35px;
+    margin: 35px 35px;
     font-weight:normal;
-    margin-top: 35px;
-    margin-bottom: 35px;
 }
 
 h4{
     display: inline-block;
+    margin-top: 0px;
     font-size: 20px;
     font-weight: 500;
     color: #333;
@@ -25,23 +24,9 @@ h4{
     min-width: 800px;
 }
 
-.txtAdvanced{
-    width: 572px;
-    height: 29px;
-}
-
-#advancedQuest{
-    margin: 40px 2% 0 45px;
-    text-decoration: none;
-    flex-direction: column;
-    display: flex;
-
-}
-
-label{
-    display: inline-block;
-    min-width: 200px;
-    font-weight: lighter;
+#marTitle{
+    margin-bottom: 35px;
+    border-bottom: 1px solid rgb(232, 232, 232);
 }
 
 .left{
@@ -156,7 +141,9 @@ a:hover{
 
 .inlineQuest{
     height: 42px;
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
     vertical-align: middle;
 }
 
@@ -166,13 +153,13 @@ a:hover{
     background-color: #4d90fe;
     color: #fff;
     border: 1px solid #3079ed;
-    align-self: flex-start;
+    float: right;
     font-size: 11px;
     border-radius: 2px;
     cursor: default;
     font-weight: bold;
     text-align: center;
-    margin-left: 658px; 
+ 
 }
 
 #advancedButton:hover{
@@ -180,6 +167,42 @@ a:hover{
 }
 
 #divAdvBut{
-    display: flex;
+    display: flex;;
     margin-top: 20px;
+}
+.txtAdvanced{
+    width: 572px;
+    height: 29px;
+}
+
+#advancedQuest{
+    margin: 40px 2% 0 45px;
+    flex-direction: column;
+    display: flex;
+
+
+}
+
+.first{
+    width: 190px;
+    width: 16%;
+    font-size: 16px;
+    min-height: 42px;
+    font-weight: lighter;
+    color: #333;
+}
+
+.second{
+    min-width: 167px;
+    max-width: 583px;
+    min-height: 41px;
+    width: 50%;
+    flex-grow: 1;
+}
+
+.third{
+    min-width: 167px;
+    max-width: 583px;
+    min-height: 41px;
+    vertical-align: middle;
 }
