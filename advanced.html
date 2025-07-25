@@ -5,24 +5,39 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <div class="header">
-            <a href="index.html">Google Search</a>
+        <div class="header2">
+            <div class="left">
+                <h2 class="g">G</h2><h2 id="o">o</h2><h2 id="o1">o</h2><h2 class="g">g</h2><h2 id="l">l</h2><h2 id="e">e</h2>
+            </div>
+            <div>
+                <a href="index.html">Google Search</a>
+            </div>
         </div>
-        <div> 
-            <h1 style="color:white; text-align: center; font-size: 100px;font-family: Helvetica, neue, sans-serif; ">Google</h4>
+        <div > 
+            <h3> Advanced Search</h3>
         </div>
-        <div>
-            <h3> Find pages with…</h3>
-            <form action="" >
-                <label> all these words: </label>
-                <input type="text" name="q">
-                <label> this exact word or phrase: </label>
-                <input type="text" name="q">
-                <label> any of these words: </label>
-                <input type="text" name="q">
-                <label> none of these words: </label>
-                <input type="text" name="q">
-                <button type="submit">Advanced Search</button>
+        <div id="advancedQuest">
+            <form action="https://www.google.com/search" method="GET">
+                <h4> Find pages with&hellip;</h4>
+            <div class="inlineQuest">
+                <label for="as_q"> all these words: </label>
+                <input type="text" name="as_q" id="as_q" class="txtAdvanced">
+            </div>
+            <div class="inlineQuest">
+                <label for="as_epq"> this exact word or phrase: </label>
+                <input type="text" name="as_epq" id="as_epq" class="txtAdvanced">
+            </div>
+            <div class="inlineQuest">
+                <label for="as_oq"> any of these words: </label>
+                <input type="text" name="as_oq" id="as_oq" class="txtAdvanced">
+            </div>
+            <div class="inlineQuest">
+                <label for="as_eq"> none of these words: </label>
+                <input type="text" name="as_eq" id="as_eq" class="txtAdvanced">
+            </div>
+            <div id="divAdvBut">
+                <button type="submit" id="advancedButton">Advanced Search</button>
+            </div>
             </form>
         </div>
         <div>
