@@ -39,7 +39,6 @@ h4{
 
 
 a {
-    /* Links in the top of the page */
     color: black;
     text-decoration: none;
     padding: 5px;
@@ -70,7 +69,6 @@ a:hover{
 
 
 .searchbutton{
-    /* buttons under the search bar*/
     padding: 10px 20px;
     border: none;
     border-radius: 6px;
@@ -95,6 +93,7 @@ a:hover{
   align-items: center;    
   gap: 15px;
 }
+
 
 .searchBar input[type="text"] {
   width: 585px;
@@ -145,6 +144,8 @@ a:hover{
     align-items: center;
     margin-bottom: 12px;
     vertical-align: middle;
+    flex-wrap: nowrap; 
+    overflow: hidden;
 }
 
 #advancedButton{
@@ -167,12 +168,23 @@ a:hover{
 }
 
 #divAdvBut{
-    display: flex;;
+    display: flex;
     margin-top: 20px;
 }
 .txtAdvanced{
     width: 572px;
+    padding: 1px 8px;
     height: 29px;
+    font-size: 16px;
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+}
+
+.txtAdvanced:focus{
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.3);
+    border: 1px solid #4d90fe;
+    outline: none;
 }
 
 #advancedQuest{
@@ -185,7 +197,7 @@ a:hover{
 
 .first{
     width: 190px;
-    width: 16%;
+    flex: 0 0 16%;
     font-size: 16px;
     min-height: 42px;
     font-weight: lighter;
@@ -193,16 +205,20 @@ a:hover{
 }
 
 .second{
-    min-width: 167px;
     max-width: 583px;
     min-height: 41px;
-    width: 50%;
+    flex: 0 0 50%;
     flex-grow: 1;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 .third{
-    min-width: 167px;
-    max-width: 583px;
-    min-height: 41px;
-    vertical-align: middle;
+    font-size: 14px;
+    align-items: center;
+    margin-left: 10px;
+    flex: 0 0 26%;
+    min-height: 31px;
+    font-weight: lighter;
+    color: #333;
 }
